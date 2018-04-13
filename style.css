@@ -1,5 +1,6 @@
 html {
   font-family: 'Roboto';
+  line-height: 25px;
 }
 
 body {
@@ -8,15 +9,22 @@ body {
 
 li {
   list-style-type: none;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container {
-  border: 2px solid black;
+  border: 2px solid #424242;
   border-radius: 10px;
   margin: 0 auto;
   text-align: center;
   box-shadow: 2px 2px 5px #E0E0E0;
   background-color: #FAFAFA;
+  max-width: 80%;
 }
 
 img {
@@ -35,5 +43,5 @@ img {
 
 .year {
   font-weight: bold;
-  text-decoration: underline black;
+  text-decoration: underline #424242;
 }
