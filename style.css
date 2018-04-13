@@ -17,6 +17,18 @@ ul {
   padding-right: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #424242;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .container {
   border: 2px solid #424242;
   border-radius: 10px;
