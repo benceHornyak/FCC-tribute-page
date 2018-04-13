@@ -1,0 +1,39 @@
+html {
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #E0E0E0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 2px 2px 5px #E0E0E0;
+  background-color: #FAFAFA;
+}
+
+img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #E0E0E0;
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.year {
+  font-weight: bold;
+  text-decoration: underline black;
+}
